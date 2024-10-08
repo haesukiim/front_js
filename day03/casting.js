@@ -9,7 +9,7 @@ let data3 = Number(20);
 console.log(typeof(data3));
 
 //"안녕" -> true로
-//boolean의 강제 형변환
+//boolean의 강제 형변환git 
 //!,!!를 붙이면 boolean 타입으로 강제 형변환된다
 let data4 = "안녕";
 let data5 = Boolean(data4);
