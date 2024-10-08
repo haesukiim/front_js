@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>operator 실습</title>
+</head>
+<body>
+
+</body>
+<script>
+  // console.log(prompt());
+  //사용자에게 정수를 입력 받아서
+  //짝수라면 "짝수입니다" , 홀수라면 "홀수입니다"를 
+  //화면에 h1태그로 출력하기
+  //단, 삼항연산자 ,변수를 이용하여 결과를 출력
+
+let data1 = prompt('정수를 입력하세요');
+let data2 = data1 % 2 == 0 ? "<h1>짝수입니다</h1>" : "<h1>홀수입니다</h1>";
+document.write(data2);
+
+//템플릿 리터널 '${변수명}'
+//document.write('<h1>${data2}</h1>');
+
+</script>
+</html>
